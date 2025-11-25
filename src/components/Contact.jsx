@@ -45,8 +45,8 @@ const Contact = () => {
     {
       icon: FiPhone,
       title: 'Phone',
-      value: '+1 (555) 123-4567',
-      link: 'tel:+15551234567',
+      value: '(909) 361-3662',
+      link: 'tel:+19093613662',
       color: 'from-green-500 to-emerald-500',
     },
     {
@@ -236,7 +236,7 @@ const Contact = () => {
                         value={formData.phone}
                         onChange={handleChange}
                         className="w-full px-4 py-3 rounded-lg bg-white dark:bg-slate-800 border border-slate-300 dark:border-slate-600 text-slate-900 dark:text-slate-100 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all"
-                        placeholder="+1 (555) 123-4567"
+                        placeholder="(909) 361-3662"
                       />
                     </div>
                   </div>
